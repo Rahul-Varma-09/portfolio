@@ -1,0 +1,37 @@
+/* Material Design Section */
+.section {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
